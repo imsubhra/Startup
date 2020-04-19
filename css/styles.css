@@ -1,0 +1,100 @@
+#header-nav {
+    background-color: #D0852D;
+    border-radius: 0;
+    border: 0;
+    box-shadow: 0 0 7px #000000;
+    }
+
+  .navbar-brand h1 {
+    font-family: 'Lora', serif;
+    color: #420500;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #701C09;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+  }
+  
+  .nav-item{
+    background-color: brown;
+      font-family: 'Lora', serif;
+      font-size: 1.4em;
+      font-weight: bold;
+  }
+  .dropdown-menu{
+    background-color: brown;
+  }
+  .dropdown-item{
+      background-color: brown;
+      font-family: 'Lora', serif;
+      font-size: 1.4em;
+      font-weight: bold;
+  }
+  .jumbotron{
+    background:url('../img/wood_bgrnd.jpg') no-repeat center center fixed;
+
+  }
+  body
+  {
+    background:url('../img/wood_bgrnd.jpg') no-repeat center center fixed;
+  }
+.card-title{
+  font-size: xx-large;
+}
+.card{
+  background-color:black;
+  color: white;
+  border-color: black;
+}
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color:black;
+  border-top: 0;
+  color: antiquewhite;
+}
+.panel-footer div.row {  margin-bottom: 35px;}
+#address,#testimonials {
+  line-height: 2;
+}
+#address > span ,#testimonials > span{  font-size: 1.3em;}
+#address p {
+  color: #D0852D;
+  font-size: .8em;
+  line-height: 1.8;
+}
+#testimonials p:nth-child(2) {  margin-top: 25px;}
+#class, #coaching, #map-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #701C09;
+  overflow: hidden;
+}
+#class:hover, #coaching:hover, #map-tile:hover {  box-shadow: 0 1px 5px 1px #cccccc;}
+#class {
+  background: url('../img/class.jpg') no-repeat;
+  background-position: center;
+}
+#coaching {
+  background: url('../img/coaching.png') no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+}
+#class span, #coaching span, #map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #D0852D;
+  opacity: .9;
+}
